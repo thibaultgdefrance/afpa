@@ -19,58 +19,58 @@
 					  <tbody>
 					    <tr>
 					      <th scope="row">1</th>
-					      <td>456</td>
+					      <td><a href="exemplefacture.php">456</td></a>
 					      <td>56</td>
-					      <td>2018-11-20</td>
-					      <td>120euros</td>
+					      <td>20-11-2018</td>
+					      <td>50.12 euros</td>
 					    </tr>
 					    <tr>
 					      <th scope="row">2</th>
 					      <td>789</td>
 					      <td>89</td>
-					      <td>2018-11-19</td>
+					      <td>20-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 						<tr>
 					      <th scope="row">1</th>
 					      <td>456</td>
 					      <td>56</td>
-					      <td>2018-11-20</td>
+					      <td>20-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 					    <tr>
 					      <th scope="row">2</th>
 					      <td>789</td>
 					      <td>89</td>
-					      <td>2018-11-19</td>
+					      <td>19-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 					    <tr>
 					      <th scope="row">1</th>
 					      <td>456</td>
 					      <td>56</td>
-					      <td>2018-11-20</td>
+					      <td>19-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 					    <tr>
 					      <th scope="row">2</th>
 					      <td>789</td>
 					      <td>89</td>
-					      <td>2018-11-19</td>
+					      <td>19-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 					    <tr>
 					      <th scope="row">1</th>
 					      <td>456</td>
 					      <td>56</td>
-					      <td>2018-11-20</td>
+					      <td>18-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 					    <tr>
 					      <th scope="row">2</th>
 					      <td>789</td>
 					      <td>89</td>
-					      <td>2018-11-19</td>
+					      <td>17-11-2018</td>
 					      <td>120euros</td>
 					    </tr>
 					  </tbody>
