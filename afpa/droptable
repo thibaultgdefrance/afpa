@@ -1,0 +1,117 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.3
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1
+-- Généré le :  lun. 05 nov. 2018 à 15:51
+-- Version du serveur :  10.1.36-MariaDB
+-- Version de PHP :  7.2.11
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données :  `vol`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `ville`
+--
+
+CREATE TABLE `ville` (
+  `idVille` int(25) NOT NULL,
+  `NomVille` varchar(25) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `ville`
+--
+
+INSERT INTO `ville` (`idVille`, `NomVille`) VALUES
+(1, 'ARRAS'),
+(2, 'PARIS'),
+(3, 'ROME'),
+(4, 'NEW-YORK'),
+(5, 'LOS-ANGELES');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `vol`
+--
+
+CREATE TABLE `vol` (
+  `idVol` int(11) NOT NULL,
+  `dateDepart` date NOT NULL,
+  `dateArrivee` date NOT NULL,
+  `villeDepart` int(25) NOT NULL,
+  `villeArrivee` int(25) NOT NULL,
+  `NumeroVol` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `vol`
+--
+
+INSERT INTO `vol` (`idVol`, `dateDepart`, `dateArrivee`, `villeDepart`, `villeArrivee`, `NumeroVol`) VALUES
+(1, '2018-11-01', '2018-11-02', 1, 2, 282898148),
+(2, '2018-11-20', '2018-11-21', 1, 2, 5555);
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `ville`
+--
+ALTER TABLE `ville`
+  ADD PRIMARY KEY (`idVille`);
+
+--
+-- Index pour la table `vol`
+--
+ALTER TABLE `vol`
+  ADD PRIMARY KEY (`idVol`);
+
+--
+-- AUTO_INCREMENT pour les tables déchargées
+--
+
+--
+-- AUTO_INCREMENT pour la table `ville`
+--
+ALTER TABLE `ville`
+  MODIFY `idVille` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT pour la table `vol`
+--
+ALTER TABLE `vol`
+  MODIFY `idVol` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- Contraintes pour les tables déchargées
+--
+
+--
+-- Contraintes pour la table `vol`
+--
+ALTER TABLE `vol`
+  ADD CONSTRAINT `vol_ibfk_1` FOREIGN KEY (`idVol`) REFERENCES `ville` (`idVille`),
+  ADD CONSTRAINT `vol_ibfk_2` FOREIGN KEY (`villeDepart`) REFERENCES `ville` (`idVille`),
+  ADD CONSTRAINT `vol_ibfk_3` FOREIGN KEY (`villeArrivee`) REFERENCES `ville` (`idVille`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
