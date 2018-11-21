@@ -1,0 +1,32 @@
+
+.carousel-item img{	  	/*max-height: 300px;*/														}
+.card{ 					/*border: 1px solid grey;*/ 												}
+.iconPersoThumbnail{ 	width: 20px; height: 20px;													}
+.divfooter{				background-color: #3d3c3f; color: #e8b588; font-size: xx-small;				}
+.CColoShop1, .fa{ 		color:#3d3c3f !important; 													}
+.CColoShop2{ 			color:#e8b588 !important;  													}
+.BGColoShop1{ 			background-color:#3d3c3f; 													}
+.BGColoShop2{ 			background-color:#e8b588; 													}
+.TSColoShop1{ 			text-shadow: 3px 3px 1px #3d3c3f; 											}
+.TSColoShop2{ 			text-shadow: 3px 3px 3px #e8b588; 											}
+.card-img-top{ 			background-color: #3d3c3f; 													}
+.card-img-top img{ 		max-height: 214px; 															}
+.card p.card-text{ 		height: 60px; 																}
+.btn-primary{			background-color:#e8b588; color:#3d3c3f; border:1px solid #e8b588;			}
+.navBarColorShop{		background-image: linear-gradient(to right top, #685a51 0%, #9b7f67 50%, #685a51 100%);		}
+/*.navBarColorShop{		background-image: linear-gradient(0deg, blue, green 40%, red);		}*/
+#SpanNbCart {
+	position: relative; 
+	top:15px; 
+	left:-10px; 
+	z-index:100; 
+	color:#3d3c3f;
+	width: 20px;
+	height: 20px;
+	background-color: #e8b588;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+	font-size: 10px;
+}
