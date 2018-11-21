@@ -14,9 +14,11 @@ if(!isset($_SESSION['login']) && !isset($_SESSION['psswd'])){
 		<div class="row">
 			<div class="col-md-2" >
 				<img src="media/user.png" style="height: 4em;width: 4em;" data-toggle="modal" data-target="#admin">
+				<h2>add admin</h2>
 			</div>
 			<div id="article" class="col-md-2 ">
 				<img src="media/caddi.png" data-toggle="modal" data-target="#truc" style="height: 4em;width: 4em;">
+				<h2>add product</h2>
 			</div>
 
 	</div>
@@ -29,173 +31,7 @@ if(!isset($_SESSION['login']) && !isset($_SESSION['psswd'])){
 			</div>
 		</div>
 	</div>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h4>messages</h4>
-				<div style="height: 20em;overflow: scroll;">
-					
-					<h6>Dupont Marcel</h6>
-					<p> vendredi 15/11/2018 16h30</p>
-					<p class="" style="width: 30em;border: 1px solid black;height: 10em;overflow: scroll;">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<button class="btn btn-primary">repondre</button>
-					<button class="btn btn-danger">supprimer</button>
-					<h6>Dupont Marcel</h6>
-					<p> vendredi 15/11/2018 16h30</p>
-					<p class="" style="width: 30em;border: 1px solid black;height: 10em;overflow: scroll;">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<button class="btn btn-primary">repondre</button>
-					<button class="btn btn-danger">supprimer</button>
-					<h6>Dupont Marcel</h6>
-					<p> vendredi 15/11/2018 16h30</p>
-					<p class="" style="width: 30em;border: 1px solid black;height: 10em;overflow: scroll;">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<button class="btn btn-primary">repondre</button>
-					<button class="btn btn-danger">supprimer</button>
-					<h6>Dupont Marcel</h6>
-					<p> vendredi 15/11/2018 16h30</p>
-					<p class="" style="width: 30em;border: 1px solid black;height: 10em;overflow: scroll;">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<button class="btn btn-primary">repondre</button>
-					<button class="btn btn-danger">supprimer</button>		
-					<h6>Dupont Marcel</h6>
-					<p> vendredi 15/11/2018 16h30</p>
-					<p class="" style="width: 30em;border: 1px solid black;height: 10em;overflow: scroll;">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<button class="btn btn-primary" data-toggle="modal" data-target="">repondre</button>
-					<button class="btn btn-danger">supprimer</button>		
-				</div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="modal fade" id="admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h2>ajouter un admin</h2>
-				<div class="form-group">
-					<form class="form-group">
-						<input type="text" name="username" placeholder="nom" class="form-control">
-						<input type="text" name="password" placeholder="password" class="form-control"><br>
-						<label>droit</label><br>
-						<select class="form-control">
-							<option>ALL</option>
-							<option>WRITE</option>
-							<option>WRITE UPDATE</option>
-							<option>WRITE UPDATE DELETE</option>
-						</select>
-						<button  type="sumbit" class="btn btn-success form-contdol">ajouter</button>
-					</form>
-				</div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="truc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-  		<form class="form-group">
-					<div class="form-group" style="">
-						<input class="form-control" type="text" name="nom" placeholder="nom de l'article">
-						<input class="form-control" type="text" name="prix" placeholder="prix"><br>
-						<select class="form-control">
-							<option class="form-control">type</option>
-							<option>chaussures</option>
-							<option>veste</option>
-							<option>pantalon</option>
-							<option>short</option>
-							<option>chemise</option>
-						</select><br>
-						<select class="form-control">
-							<option>sexe</option>
-							<option>homme</option>
-							<option>femme</option>
-							<option>unisexe</option>
-						</select><br>
-						<select class="form-control">
-							<option>adult</option>
-							<option>enfant</option>
-						</select><br>
-						<label>couleur</label><br>
-						<input type="checkbox" name="couleur">rouge
-						<input type="checkbox" name="couleur">bleu
-						<input type="checkbox" name="couleur">blanc
-						<input type="checkbox" name="couleur">noir
-						<input type="checkbox" name="couleur">vert
-						<button type="sumbit" class="btn btn-success form-contdol">ajouter</button>
-						
-
-					</div>
-		</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 </body>
 </html>
 
