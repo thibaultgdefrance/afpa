@@ -13,7 +13,7 @@ if(!isset($_SESSION['login']) && !isset($_SESSION['psswd'])){
 	<div class="container-fluid" style="padding-left:30%">
 		<div class="row">
 			<div class="col-md-2" >
-				<img src="media/user.png" style="height: 4em;width: 4em;" data-toggle="modal" data-target="#admin">
+				<img src="media/user.png" style="height: 4em;width: 4em;" data-toggle="modal" data-target="#admin" >
 				<h2>add admin</h2>
 			</div>
 			<div id="article" class="col-md-2 ">
