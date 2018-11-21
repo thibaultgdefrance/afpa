@@ -2,7 +2,7 @@
 
     $login = "admin";
     $psswd = "admin";
-    if(($_POST['username'] == $login) && ($_POST['psswd'] == $psswd){
+    if(($_POST['username'] == $login) && ($_POST['psswd'] == $psswd)){
         header('Location: admin.html');
         exit(); 
     }else{
