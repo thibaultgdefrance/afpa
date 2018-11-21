@@ -30,3 +30,5 @@
 	line-height: 20px;
 	font-size: 10px;
 }
+#btnPanier{ z-index: 1000000; }
+#numberDivAjoutNombreClickAlert{ color:red; }

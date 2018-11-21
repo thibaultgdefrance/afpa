@@ -5,6 +5,7 @@ if(!isset($_SESSION['login']) && !isset($_SESSION['psswd'])){
         header('Location: index.html');
     }
     else{
+	if($_SESSION['type'] == "admin"){
 ?>
 	<div class="container-fluid">
 		<div class="row">
@@ -200,5 +201,6 @@ if(!isset($_SESSION['login']) && !isset($_SESSION['psswd'])){
 </html>
 
 <?php
+	}
 }
 ?>
